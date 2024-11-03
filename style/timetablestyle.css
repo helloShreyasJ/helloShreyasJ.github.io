@@ -1,20 +1,34 @@
-
 table{
     text-align: left;
     color:white;
 }
 .math{
     background-color: #f8a5c2;
+    color:#542148;
+    font-style: italic;
+    font-weight: 700;
 }
 .sdpd{
     background-color: #63cdda;
+    color:#1B1464;
+    font-style: italic;
+    font-weight: 700;
 }
 .gui{
     background-color: #f5cd79;
+    color:#6b4610;
+    font-style: italic;
+    font-weight: 700;
 }
 .design{
     background-color: #786fa6;
+    color:#2f3063;
+    font-style: italic;
+    font-weight: 700;
 }
 .aps{
     background-color: #ea8685;
+    color:#6F1E51;
+    font-style: italic;
+    font-weight: 700;
 }
