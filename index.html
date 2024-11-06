@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,19 +7,17 @@
     <link  rel="stylesheet" href = "style/indexstyle.css">
     <title>Home</title>
 </head>
+
 <body>
-    <h3 class="links"
-    style="
-    text-align: center;">
-    <a href = "index.html">Home</a>
-    <a href = "projects/projects.html">Projects</a>
-    <a href = "contact/contact.html">Contact</a>
-</h3>
-    <br>
-    <img src = "images/highRes.png" width = 200 height = 200 alt = "Me at Cliffs of Moher" hspace = "30" vpsace = "10" border ="5" style="border-color:teal">
-    <br>
-    <p>Hi, I'm <b>Shreyas Joshi</b>. The person in the picture above Is me! This picture was taken at Cliffs of Moher.</p>
-    <p>I'll be practicing and showcasing my web development skills by the means of this website. I'll be sure to update the site regularly.</p>
-    <a href = "#top">All the way up^</a>
+    <h3 id="links">
+        <a href="index.html"><button>Home</button></a>
+        <a href="projects/projects.html"><button>Projects</button></a>
+        <a href="contact/contact.html"><button>Contact</button></a>
+    </h3>
+
+    <img src = "images/highRes.png" id="picture">  
+    <p class="about">Hi, I'm <b>Shreyas Joshi</b>. The person in the picture above Is me! The picture was taken at <a href="https://en.wikipedia.org/wiki/Cliffs_of_Moher" id="cliff">Cliffs of Moher</a>.</p>
+    <p class="about">I'll be practicing and showcasing my web development skills by the means of this website. I'll be sure to update the site regularly.</p>
+
 </body>
 </html>
