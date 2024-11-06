@@ -1,6 +1,36 @@
+body{
+    background-color: #303952;
+}
+
+#text-heading{
+    text-align:center;
+    font-size: 52px;
+    background-color: #303952;
+    color:#ffffff;
+    font-family:Impact, Arial, sans-serif;
+    font-stretch:extra-expanded;
+}
+
+#text-group{
+    text-align:center;
+    background-color: #303952;
+    color:hsl(0, 0%, 100%);
+    font-family:arial, helvetica;
+    font-stretch: expanded;
+}
+
 table{
     text-align: left;
     color:white;
+    font-size: 24px;
+    font-family: arial, helvetica;
+    border-spacing: 20px;
+    width:1000px;
+    background-color: #353b48;
+    border-style:groove;
+    margin-left:auto;
+    margin-right:auto;
+
 }
 .math{
     background-color: #f8a5c2;
@@ -31,4 +61,11 @@ table{
     color:#6F1E51;
     font-style: italic;
     font-weight: 700;
+}
+
+#links{
+    font-family: arial, helvetica;
+    text-align: right; background-color: #2ed573;
+    color: white;
+    padding:25px
 }
