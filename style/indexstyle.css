@@ -33,8 +33,7 @@ body{
 button{
     background-color: #282828;
     color:#ffffff;
-    border-style: solid;
-    border-color: #ffffff0e;
+    border-style: none;
     border-radius: 20px;
     padding-left: 30px;
     padding-right: 30px;
@@ -45,18 +44,14 @@ button{
     font-weight:400;
     margin-right: 10px;
     text-align: center;
+    transition:0.3s;
 }
 
 button:hover{
     cursor: pointer;
     background-color: #c63c3c;
     color:#dfe4ea;
-    font-weight: 400;
-    transition: font-weight, background-color 0.4s;
-    box-shadow: 0px 0px 100px #999e97;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    
+    font-weight: 450;  
 }
 
 button:active{
